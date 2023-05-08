@@ -9,11 +9,13 @@ class Ejercicio_9{
 
     foreach (int num in numeros)
     {
-        if (num % 2 == 0)
+        if (num % 2 == 0){
+            Write($"{num}, ");
             suma += num;
+        }
     }
 
-    WriteLine("La suma de los números pares es {0}", suma);
+    WriteLine($"La suma de los números pares es {suma}");
 
     ReadKey();
 }

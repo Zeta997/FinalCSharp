@@ -17,8 +17,8 @@ class Ejercicio_8{
     area = 6 * Pow(lado, 2);
     volumen = Pow(lado, 3);
 
-    WriteLine("El área del cubo es {0}", area);
-    WriteLine("El volumen del cubo es {0}", volumen);
+    WriteLine($"El área del cubo es {area}");
+    WriteLine($"El volumen del cubo es {volumen}");
 
     ReadKey();
 }

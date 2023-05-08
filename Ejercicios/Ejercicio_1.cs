@@ -24,5 +24,6 @@ class Ejercicio_1{
     WriteLine("El mayor número es: " + mayor);
     WriteLine("El menor número es: " + menor);
     ReadLine();
+    
     }
 }

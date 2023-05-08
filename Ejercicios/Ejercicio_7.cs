@@ -25,8 +25,8 @@ class Ejercicio_7{
     }
 
     if (esPrimo)
-        WriteLine("{0} es un número primo", num);
+        WriteLine($"{num} es un número primo");
     else
-        WriteLine("{0} no es un número primo", num);
+        WriteLine($"{num} no es un número primo");
 }
 }

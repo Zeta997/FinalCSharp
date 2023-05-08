@@ -15,11 +15,11 @@ class Ejercicio_10{
     }
 
     if (num > 0)
-        WriteLine("{0} es un número positivo", num);
+        WriteLine($"{num} es un número positivo");
     else if (num < 0)
-        WriteLine("{0} es un número negativo", num);
+        WriteLine($"{num} es un número negativo");
     else
-        WriteLine("{0} es cero", num);
+        WriteLine($"{num} es cero");
 
     ReadKey();
 }

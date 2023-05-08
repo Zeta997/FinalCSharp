@@ -15,7 +15,7 @@ class Ejercicio_6{
             factorial *= i;
         }
 
-        WriteLine("El factorial de {0} es {1}", num, factorial);
+        WriteLine($"El factorial de {num}! es {factorial}");
     }
     else
         WriteLine("Número inválido");

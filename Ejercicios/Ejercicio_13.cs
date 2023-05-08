@@ -17,11 +17,11 @@ class Ejercicio_13{
 
     if (sonAnagramas)
     {
-        WriteLine(palabra1 + " y " + palabra2 + " son anagramas.");
+        WriteLine($"{palabra1} y {palabra2} son anagramas.");
     }
     else
     {
-        WriteLine(palabra1 + " y " + palabra2 + " no son anagramas.");
+        WriteLine($"{palabra1} y {palabra2} no son anagramas.");
     }
 }
 }

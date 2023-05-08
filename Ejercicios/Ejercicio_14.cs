@@ -17,7 +17,7 @@ class Ejercicio_14{
     }
 
     WriteLine("Números originales: " + string.Join(", ", numeros));
-    WriteLine("Números originales: " + string.Join(", ", numeros));
+    WriteLine("Números sin duplicar: " + string.Join(", ", numerosSinDuplicados));
 
 }
 }
