@@ -15,8 +15,8 @@ __pycache__/
 venv/
 env/
 .virtualenv/
-bin/
-obj/
+/bin
+/obj
 
 # Archivos de configuración locales
 .env
