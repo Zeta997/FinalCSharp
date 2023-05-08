@@ -5,6 +5,7 @@ class Ejercicio_3{
    public void AnyoBisiesto()
 {
     Write("Ingrese un año: ");
+    try{
     int anio = 0;
     if (int.TryParse(ReadLine(), out anio))
 
@@ -16,7 +17,8 @@ class Ejercicio_3{
         {
             WriteLine(anio + " no es un año bisiesto");
         }
-    else
+    }catch(Exception){
         WriteLine("Ha entrado un año incorrecto");
+    }
 }
 }

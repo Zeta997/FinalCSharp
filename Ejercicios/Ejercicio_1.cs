@@ -5,24 +5,28 @@ class Ejercicio_1{
     public void MenorMayor()
     {
 
-    int[] numeros = { 5, 3, 8, 1, 7, 2 };
-    int mayor = numeros[0];
-    int menor = numeros[0];
-
-    foreach (int numero in numeros)
-    {
-        if (numero > mayor)
-        {
-            mayor = numero;
+    List<int> numeros= new List<int>();
+    while(true){
+    Write("Introduce valores: ");
+    string? valorInput= ReadLine();
+    try{
+        int valorAEntero = Convert.ToInt32(valorInput);
+        numeros.Add(valorAEntero);
+        Write("¿Desea finalizar(s/n): ");
+        string? finalizar= ReadLine();
+        if(finalizar!=null){
+            if(finalizar.ToLower()=="s"){
+                break;
+            }
         }
-        if (numero < menor)
-        {
-            menor = numero;
-        }
+    }catch(Exception e){
+        WriteLine(e);
     }
-
-    WriteLine("El mayor número es: " + mayor);
-    WriteLine("El menor número es: " + menor);
+    }
+    int maxValor= numeros.Max();
+    int minValor= numeros.Min();
+    WriteLine("El mayor número es: " + maxValor);
+    WriteLine("El menor número es: " + minValor);
     ReadLine();
     
     }
