@@ -1,21 +1,5 @@
-#Librerias del entorno actual
-__pycache__/
-
-# Archivos de log
-*.log
-
-# Archivos compilados y binarios
-*.pyc
-*.exe
-*.dll
-*.so
-*.out
-
-# Carpeta de entornos virtuales
-/[Bb]in
-/[Oo]bj
-
-# Archivos de configuración locales
-.DS_Store
-
+bin/
+obj/
+.DS_store
+.vscode
 
