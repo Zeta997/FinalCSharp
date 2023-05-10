@@ -1,4 +1,4 @@
-##EjercicioClase
+## EjercicioClase
 
 En este repositorio encontrar un archivo ```program.cs``` y una carpeta en el que contendrá 15 ejercicios.
 
@@ -12,7 +12,7 @@ Para este repositorio es necesario tener instalado la version de ```.NET 7.0```
 
 *3.-* Abrirlo desde vscode.
 
-###Ejecución del programa desde vscode:
+### Ejecución del programa desde vscode:
 
 *1.-* Abrir un terminar.
 
